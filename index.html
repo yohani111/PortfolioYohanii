@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Curriculo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Yohani Andreina</div>
+        <div>
+            <ul class="nav-links">
+             <li><a href="#about">Sobre</a></li>
+            <li><a href="#experience">Experiências</a></li>
+            <li><a href="#projects">Galeria</a></li>
+            <li><a href="#contact">Contato</a></li>
+         </ul>
+     </div>
+    </nav>
+    <nav id="hamburguer-nav">
+        <div class="logo">Yohani Andreina</div>
+        <div class="hamburguer-menu">
+            <div class="hamburguer-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#Sobre" onclick="toggleMenu()">Sobre</a></li>
+          <li><a href="#Experiencias" onclick="toggleMenu()">Experiencias</a></li>
+          <li><a href="#Galeria" onclick="toggleMenu()">Galeria</a></li>
+          <li><a href="#Contato" onclick="toggleMenu()">Contato</a></li>
+        </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/giphy (1).gif" alt="Yohani Andreina profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Olá! eu sou</p>
+            <h1 class="title">Yohani Andreina</h1>
+            <p class="section__text__p2">Designer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Currículo Yohani.pdf')">Download CV
+                
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#Contato'">Contato Info
+                
+                </button>
+         </div>
+        
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Saiba mais</p>
+        <h1 class="title">Sobre mim</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/minha fotoo.png" alt="Profile picture"
+                class="about-pic"
+                />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="experience icon"
+                         class="icon"
+                         />
+                         <h3>Experiências</h3>
+                         <p>Mais de 2 Anos <br>Ilustração</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/Education.png" alt="Education icon"
+                         class="icon"
+                         />
+                         <h3>Curso</h3>
+                         <p> Curso completo de Ilustração na EBAC  <br>Certificado</p>
+                  </div>
+                </div>
+                <div class="text-container">
+                    <p> Tenho 21 anos e estou iniciando minha carreira na área do Design. Sempre explorando e inovando minhas técnicas e habilidades para um melhor resultado, além de realizar minhas funções com desempenho e dedicação com o objetivo de atingir o melhor que posso proporcionar  
+                   </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+        onclick="location.href='./#experience'"
+         />
+    </section>
+    <section id="experience">
+    <p class="section__text__p1">Veja Mais</p>
+    <h1 class="title">Experiências</h1>
+     <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container">
+                <h1 class="experience-sub-title">Web Design</h1>
+                <div>
+                    <h3>CSS</h3>
+                    <p>intermediário</p>
+                </div>
+            </article>
+            <article>
+                <img src="./assets/checkmark.png" 
+                alt="experience icon" 
+                class="icon"
+                />
+                <div>
+                    <h3>HTML</h3>
+                   <p>intermediário</p>
+                       </div>
+                   </article>
+                <article>
+                 <img 
+                    src="./assets/checkmark.png" 
+                    alt="experience icon" 
+                    class="icon"
+                       />
+                 <div>
+                        <h3>JavaScript</h3>
+                        <p>Básico</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/checkmark.png" 
+                    alt="experience icon" 
+                    class="icon"
+                    />
+            </div>
+            <div class="details-container">
+                <h2 class="experience-sub-title">Ferramentas</h2>
+                 <div class="article-container">
+                    <article>
+                         
+                        <div>
+                         <h3>Photoshop</h3>
+                        <p>Experiente</p>
+                        </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="experience icon" 
+                            class="icon"
+                            />
+                            <div>
+                            <h3>Illustrator</h3>
+                            <p>Experiente</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="experience icon" 
+                            class="icon"
+                            />
+                            </div>
+                            <h3>Figma</h3>
+                            <p>Experiente</p>
+                            <img src="./assets/checkmark.png" 
+                            alt="experience icon" 
+                           class="icon"
+                            /> 
+                        </article>
+                        <article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img 
+        src="./assets/arrow.png" 
+        alt="arrow icon"
+        class="icon arrow"
+        onclick="location.href=' ./#projects' "
+        />
+    </section>
+    <section id="projects">
+        <h1 class="title">Galeria</h1>
+        <p class="section__text__p1">Projetos Photoshop e Illustrator</p>
+        
+        <div class="experience-details-container">
+            
+                    
+                </style>
+                <link rel="stylesheet" href="style.css">
+            </head>
+            <body>
+
+            
+                <div class="banner">
+                    <div class="slider" style="--quantity: 10">
+                        <div class="item" style="--position: 1"><img src="assets/Projeto 3 .png" alt=""></div>
+                        <div class="item" style="--position: 2"><img src="assets/IDEIASpng.png" alt=""></div>
+                        <div class="item" style="--position: 3"><img src="assets/sejacor.jpeg" alt=""></div>
+                        <div class="item" style="--position: 4"><img src="assets/Lado a Lado_page-0001.jpg" alt=""></div>
+                        <div class="item" style="--position: 5"><img src="assets/Projeto Photoshop 1.png" alt=""></div>
+                        <div class="item" style="--position: 6"><img src="assets/stylestreet_page-0001.jpg" alt=""></div>
+                        <div class="item" style="--position: 7"><img src="assets/Deef poster_page-0001.jpeg" alt=""></div>
+                        <div class="item" style="--position: 8"><img src="assets/Projeto poster japones.jpg" alt=""></div>
+                        <div class="item" style="--position: 9"><img src="assets/moçapirulito.jpg" alt=""></div>
+                        <div class="item" style="--position: 10"><img src="assets/palacio itamaraty.jpeg" alt=""></div>
+                    </div>
+                </section>
+
+                <h1 class="title">Galeria</h1>       
+      <p class="section__text__p1">projetos Figma</p>
+      <p class="section__text__p1">porfavor abra o link abaixo e acesse meus projetos figma</p>
+      <div class="linkfigma">
+          <div class="linkfigmaupper">
+            <img 
+             src="assets/HD Square Black & White Behance App Logo Icon PNG.jpeg" 
+             alt="behanceicon"
+
+             class="icon contact-icon behanceicon" 
+             />
+             <p>
+                 <a href=https://www.behance.net/yohaniandreina1/projects>https://www.behance.net/yohaniandreina1/projects</a>
+            </p>
+       
+            
+            
+
+                                            
+                                               
+                             
+                           
+                            </button>
+                        </div>
+                     </div>
+                     </div>
+                    </div>   
+     
+          </div>
+                    
+                                </div>
+                    
+                
+            </body>
+            </html>
+            
+            
+               
+                </button>
+            </div>
+            
+         </div>
+         </div>
+        </div>
+        <img 
+        src="./assets/arrow.png" 
+        alt="arrow icon"
+        class="icon arrow"
+        onclick="location.href=' ./#contact' "
+        />
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Um toque</p>
+        <h1 class="title">Me Contate</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img 
+                 src="./assets/email.png" 
+                 alt="Email icon"
+                 class="icon contact-icon email-icon" 
+                 />
+                 <p><a href="mailto:examplemail@gmail.com">yohani.velasquez.r@gmail.com</a>
+                </p>
+            </div>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img 
+                 src="./assets/instagram.svg" 
+                 alt="instagram
+                  icon"
+                 class="icon contact-icon" 
+                 />
+                 <p><a href="https://www.linkdin.com">yohani_velasquez</a>
+                </p>
+            </div>
+        </div>
+
+    </section>
+   <script src="script.js"></script> 
+</body>
+</html>
